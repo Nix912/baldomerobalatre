@@ -60,11 +60,11 @@ class MenuInicio extends StatelessWidget {
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.blue,
-                  foregroundColor: Colors.white, // Color del texto blanco
+                  foregroundColor: Colors.white, 
                   padding: EdgeInsets.symmetric(horizontal: 40, vertical: 15),
                   textStyle: TextStyle(
                     fontSize: 20,
-                    color: Colors.white, // Color del texto blanco
+                    color: Colors.white, 
                   ),
                 ),
                 child: Text('Jugar'),
@@ -76,11 +76,11 @@ class MenuInicio extends StatelessWidget {
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.red,
-                  foregroundColor: Colors.white, // Color del texto blanco
+                  foregroundColor: Colors.white, 
                   padding: EdgeInsets.symmetric(horizontal: 40, vertical: 15),
                   textStyle: TextStyle(
                     fontSize: 20,
-                    color: Colors.white, // Color del texto blanco
+                    color: Colors.white, 
                   ),
                 ),
                 child: Text('Salir'),
