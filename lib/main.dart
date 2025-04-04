@@ -27,7 +27,7 @@ class MenuInicio extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/fondo.jpg'),
+            image: AssetImage('assets/images/fondomenu.jpg'),
             fit: BoxFit.cover,
           ),
         ),
@@ -36,7 +36,7 @@ class MenuInicio extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'Baldomero Balatrez',
+                '~ Balatro like Game ~',
                 style: TextStyle(
                   fontSize: 32,
                   fontWeight: FontWeight.bold,
